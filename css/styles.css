@@ -37,8 +37,14 @@ body {
     justify-content: normal;
     align-items: normal;
     align-content: normal;
+    column-gap: 5%;
+    row-gap: 10%;
+
   }
   
+  h1 {
+    font-family: 'Comfortaa', cursive;
+  }
   .flex-items:nth-child(1) {
     display: block;
     flex-grow: 0;
@@ -83,12 +89,12 @@ body {
 width: 100%;
 gap: 0px;
 grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 3fr 3fr 1fr 3fr;
 grid-template-areas: 
-"ProSkillsHead"
+"ProSkillsHead ProSkillsHead"
 "Wireframing Wireframing"
 "Branding Branding"
-"Skillshead"
+"SkillsHead SkillsHead"
 "SkillsColumn1 SkillsColumn2"
 ;}
 
